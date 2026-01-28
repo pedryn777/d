@@ -102,3 +102,65 @@ footer a {
   color: #8fd3ff;
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  /* HERO / TOPO */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  /* IMAGENS */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* SEÇÕES */
+  section {
+    padding: 40px 20px;
+  }
+
+  /* SOBRE O DOUTOR */
+  .sobre {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .sobre img {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  /* BOTÃO WHATS */
+  .btn,
+  .botao-whats {
+    width: 100%;
+    font-size: 18px;
+    padding: 16px;
+  }
+
+  /* CARDS / SERVIÇOS */
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+}
